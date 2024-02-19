@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <!-- Include Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-zinc-800  font-sans text-white ">
+    <!-- Navigation -->
+    <nav class="bg-zinc-700  shadow-lg">
+        <div class="container mx-auto px-6 py-3">
+            <div class="flex items-center justify-between">
+                <div class="text-xl font-semibold">MyWebsite</div>
+                <div class="flex items-center bg-zinc-700 ">
+                    <a href="./index.html" class="text-white hover:text-gray-800 mx-3">Home</a>
+                    <a href="./services.html" class="text-white  hover:text-gray-800 mx-3">Services</a>
+                    <a href="#" class="text-white  hover:text-gray-800 mx-3">Contact</a>
+                    <a href="#" class="text-white  hover:text-gray-800 mx-3">Blog</a>
+                    <a href="./about.html" class="text-white  hover:text-gray-800 mx-3">About</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Form -->
+    <section class="container mx-auto my-10 p-10 bg-zinc-700 text-white  rounded-lg shadow-lg">
+        <h2 class="text-3xl font-semibold mb-8 text-white ">Contact Us</h2>
+        <form class="w-full max-w-lg">
+            <div class="flex flex-wrap -mx-3 mb-6">
+                <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                    <label for="name" class="block text-gray-700 text-sm font-bold mb-2">Name</label>
+                    <input id="name" type="text" placeholder="Your Name" class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                </div>
+                <div class="w-full md:w-1/2 px-3">
+                    <label for="email" class="block text-gray-700 text-sm font-bold mb-2">Email</label>
+                    <input id="email" type="email" placeholder="Your Email" class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                </div>
+            </div>
+            <div class="flex flex-wrap -mx-3 mb-6">
+                <div class="w-full px-3">
+                    <label for="message" class="block text-gray-700 text-sm font-bold mb-2">Message</label>
+                    <textarea id="message" placeholder="Your Message" class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline h-32 resize-none"></textarea>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Submit</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- Footer -->
+</body>
+</html>
