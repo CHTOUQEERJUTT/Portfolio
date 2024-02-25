@@ -13,6 +13,7 @@
         body {
             background-color: #262729; /* zinc-700 */
             color: white;
+            overflow-y: hidden;
         }
         .gradient-bg {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -28,9 +29,10 @@
                 <div class="flex items-center">
                     <a href="./index.html" class="mx-3">Home</a>
                     <a href="./services.html" class="mx-3">Services</a>
-                    <a href="./contact.html" class="mx-3">Contact</a>
-                    <a href="#" class="mx-3">Blog</a>
+                    
                     <a href="#" class="mx-3">About</a>
+                    <a href="" class="mx-3 line-through decoration-2  decoration-red-600 ">Contact</a>
+                    <a href="" class="mx-3 line-through decoration-2  decoration-red-600 ">Blog</a>
                 </div>
             </div>
         </div>
@@ -39,17 +41,35 @@
     <!-- About Section -->
     <section class="container mx-auto my-10 p-10 bg-zinc-700  rounded-lg shadow-lg">
         <div class="md:flex items-center">
-            <div class="md:w-1/2">
-                <img class="rounded-lg shadow-md" src="https://via.placeholder.com/400" alt="About Us">
+            <div class="md:w-1/2 overflow-hidden ">
+                <img class="rounded-lg shadow-md w-[400px] h-[400px] object-cover " src="./Snapchat-2042308775.jpg" alt="About Us">
             </div>
             <div class="md:w-1/2 md:ml-10 mt-4 md:mt-0">
                 <h2 class="text-3xl font-semibold mb-4">About Me</h2>
-                <p>Greetings! I'm Mohammad Touqeer, an 18-year-old proficient in web development with a specialization in both frontend and backend technologies. With expertise in HTML, CSS, and JavaScript for frontend development, coupled with MongoDB, Node.js, and Express for backend solutions, I am well-equipped to craft dynamic and responsive web applications. Whether it's building sleek user interfaces or ensuring efficient backend operations, I'm committed to delivering high-quality results. Let's collaborate to bring your web projects to life with precision and professionalism</p>
+                <p>Greetings! I'm Mohammad Touqeer, an 18-year-old proficient in web development with a specialization in both frontend and backend technologies. With expertise in HTML, VanilaCSS,Tailwind Css and JavaScript for frontend development, coupled with MongoDB, Node.js, and Express for backend solutions, I am well-equipped to craft dynamic and responsive web applications. Whether it's building sleek user interfaces or ensuring efficient backend operations, I'm committed to delivering high-quality results. Let's collaborate to bring your web projects to life with precision and professionalism</p>
                 <a href="#" class="text-blue-600 hover:underline">Learn More <i class="fas fa-chevron-right"></i></a>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
+    <!-- Footer --><footer class="mt-64 ">
+        <div class="f2 w-full h-16     px-8  py-4  text-white    ">
+            <div class="flex justify-between  ">
+                <div class="w-44 h-8    rounded-md overflow-hidden  inline-block mb-2      ">
+                    <img class="w-full h-full object-cover" src="./cover-removebg-preview (1).png" alt="">
+        
+                   </div>
+                <h1 class="text-xs opacity-60 text-center ml-10 py-2  ">@2024 Touqeerdev.All <span class="text-[#FD2231]">Copyrights</span> reserved</h1>
+                <div class="iconssss flex gap-5 ">
+                    <i class="ri-facebook-fill"></i>
+                    <i class="ri-instagram-fill"></i>
+                    <i class="ri-twitter-x-line"></i>
+                    <i class="ri-linkedin-box-fill"></i>
+
+                </div>
+            </div>
+        </div>
+       
+    </footer>
 </body>
 </html>

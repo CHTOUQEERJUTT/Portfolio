@@ -5,19 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdn.tailwindcss.com">
     <link
     href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
     rel="stylesheet"/>
 </head>
 <body>
-    <div class="main w-full h-screen bg-zinc-800 text-white pt-1   ">
-        <div class="nav  flex justifu-between gap-10 text-center flex-wrap mt-4 ml-10 px-6     ">
-           <div class="w-44 h-16  rounded-md overflow-hidden     ">
+    <div id="maincontainer1" class="maincontainer  w-full h-screen bg-zinc-800 text-white pt-1   ">
+        <div id="nav" class="nav  flex justifu-between gap-10 text-center flex-wrap mt-4 ml-10 px-6     ">
+           <div id="logoimg" class="w-44 h-16  rounded-md overflow-hidden     ">
             <img class="w-full h-full object-cover" src="./cover-removebg-preview (1).png" alt="">
 
            </div>
+           <i id="navmenu"  class="ri-menu-4-fill none text-2xl     "></i>
             <a class="ml-20 h-12 mt-3 font-semibold     inline-block " href="">Home</a>  
             <a class="ml-4 h-12  mt-3 font-semibold  " href="./about.html">About</a>
             <a class="ml-4 h-12  mt-3 font-semibold  " href="./services.html">Services</a>
@@ -26,38 +27,41 @@
             <a class="ml-4 h-12  mt-3 font-semibold line-through decoration-2   decoration-red-600      " href="">Contact</a>
             <button class="ml-   w-40 h-12 border-2 border-red-500  rounded-full text-center       " href="">DownloadResume</button>
         </div>
-
-        <div class="text">
-            <div class="pt-40 px-20 ">
-                <h1>Hello  I'M</h1>
-                <h1 class="text-[70px] font-bold ">M.Touqeer.Ali</h1>
-                <h1 class="font-semibold">Front_end &Backend_dev</h1>
-            </div>
-            <div class="mail pt-10 px-20 ">
-                <h1 class="text-3xl underline  decoration-solid decoration-2 underline-offset-4 decoration-red-500 ">chaudrytouqeerx@gmail.com</h1>
-                <h1>Wahcantt,Taxila,Islamabad,Punjab,Pakistan</h1>
-            </div>
-            <div class="px-20  ">
-                <h1 class="text-[50px] font-semibold ">Expertise:</h1>
-                
-            </div>
-            <div class="iconsss flex  text-[70px] px-20 overflow-hidden   ">
-                <i class="ri-html5-fill text-[#EE632A]"></i>
-                <i class="ri-css3-fill text-[#2465F1]"></i>
-                <i class="ri-javascript-line  "></i>
+            <div id="textc1" class="text">
 
 
-            </div>
-            <div class="social pt-28   px-20 text-3xl gap-10   ">
-                <a href=""><i class="ri-facebook-fill text-[#0866FF]"></i></a>
-                <a href=""><i class="ri-twitter-x-fill text-[#000000]"></i></a>
-                <a href=""><i class="ri-instagram-fill text-[#FF066A]"></i></a>
-                <a href=""><i class="ri-linkedin-fill  text-[#]"></i></a>
-                <a href=""><i class="ri-github-fill text-[#]"></i></a>
+                <div id="c11" class="pt-40 px-20 ">
+                    <h1>Hello  I'M</h1>
+                    <h1 class="text-[70px] font-bold ">M.Touqeer.Ali</h1>
+                    <h1 class="font-semibold">Front_end &Backend_dev</h1>
+                </div>
+                <div id="mail" class="mail pt-10 px-20 ">
+                    <h1  class="text-3xl underline  decoration-solid decoration-2 underline-offset-4 decoration-red-500 ">chaudrytouqeerx@gmail.com</h1>
+                    <h2>Wahcantt,Taxila,Islamabad,Punjab,Pakistan</h2>
+                </div>
+                <div id="Expertise" class="px-20  ">
+                    <h1 class="text-[50px] font-semibold ">Expertise:</h1>
+                    
+                </div>
+                <div class="iconsss flex  text-[70px] px-20 overflow-hidden   ">
+                    <i class="ri-html5-fill text-[#EE632A]"></i>
+                    <i class="ri-css3-fill text-[#2465F1]"></i>
+                    <i class="ri-javascript-line  "></i>
+    
+    
+                </div>
+                <div class="social pt-28   px-20 text-3xl gap-10   ">
+                    <a href="https://www.facebook.com/profile.php?id=100092415151776&mibextid=ZbWKwL"><i class="ri-facebook-fill text-[#0866FF]"></i></a>
+                    <a href="https://x.com/ChaudryTokeer?t=dHPkjrVGecRagLnSczvBIg&s=09"><i class="ri-twitter-x-fill text-[#000000]"></i></a>
+                    <a href="https://www.instagram.com/tokeer_jutt?igsh=bmJkODc0dmp1dHFs"><i class="ri-instagram-fill text-[#FF066A]"></i></a>
+                    <a href=""><i class="ri-linkedin-fill  text-[#]"></i></a>
+                    <a href=""><i class="ri-github-fill text-[#]"></i></a>
+                </div>
+       
             </div>
         </div>
     </div>
-    <div class="smain w-full h-screen bg-[#040717] text-white  ">
+    <div id="smain" class="smain w-full h-screen bg-[#040717] text-white  ">
         <div class="ic  pt-16 flex justify-center ">
             <i class="ri-home-smile-fill text-3xl "></i>
             
@@ -71,30 +75,30 @@
         <div class="flex justify-center ">
             <h1 class="text-4xl font-bold  ">About My Resume </h1>
         </div>
-        <div class="flex gap-10 pt-10 mt-16 ">
-            <div class="info w-2/4  h-96  ">
-                <div class="py-20  ">
-                 <div class="flex gap-[-5px] bg-[#101324] ml-4 rounded-md  ">
+        <div id="about" class="flex gap-10 pt-10 mt-16 ">
+            <div id="aboutcontainer"  class=" info w-2/4  h-96  ">
+                <div  class="py-20  ">
+                 <div id="aboutinnok" class="flex gap-[-5px] bg-[#101324] ml-4 rounded-md  ">
                     <h1 class="text-xl px-10 py-2 font-semibold  ml-4 rounded-md w-72       ">Age:</h1>
                     <h1 class="text-xl px-10 py-2 font-semibold   rounded-md w-56     " >18</h1>
                  </div>   
-                 <div class="flex gap-[-5px]  ml-4 rounded-md  ">
+                 <div id="aboutinnok"  class="flex gap-[-5px]  ml-4 rounded-md  ">
                     <h1 class="text-xl px-10 py-2 font-semibold  ml-4 rounded-md w-72       ">Residence:</h1>
                     <h1 class="text-xl px-10 py-2 font-semibold   rounded-md w-56     " >Pakistan</h1>
                  </div>   
-                 <div class="flex gap-[-5px] bg-[#101324] ml-4 rounded-md  ">
+                 <div id="aboutinnok" class="flex gap-[-5px] bg-[#101324] ml-4 rounded-md  ">
                     <h1 class="text-xl px-10 py-2 font-semibold  ml-4 rounded-md w-72       ">Address:</h1>
                     <h1 class="text-xl px-10 py-2 font-semibold   rounded-md w-56     " >Islamabad</h1>
                  </div>   
-                 <div class="flex   ml-4 rounded-md  ">
+                 <div id="aboutinnok"  class="flex   ml-4 rounded-md  ">
                     <h1 class="text-xl px-10 py-2 font-semibold  ml-4 rounded-md w-72       ">Email:</h1>
                     <h1 class="text-xl px-6 py-2 font-semibold   rounded-md w-48     " >chaudrytouqeerx@gmail.com</h1>
                  </div>   
-                 <div class="flex gap-[-5px] bg-[#101324] ml-4 rounded-md  ">
+                 <div  id="aboutinnok" class="flex gap-[-5px] bg-[#101324] ml-4 rounded-md  ">
                     <h1 class="text-xl px-10 py-2 font-semibold  ml-4 rounded-md w-72       ">Phone:</h1>
-                    <h1 class="text-xl px-6 py-2 font-semibold   rounded-md w-56     " >+92 300  xxxxxxx-x</h1>
+                    <h1 class="text-xl px-6 py-2 font-semibold   rounded-md w-56     " >+92 318 5820103</h1>
                  </div>   
-                 <div class="flex gap-[-5px]  ml-4 rounded-md  ">
+                 <div id="aboutinnok"  class="flex gap-[-5px]  ml-4 rounded-md  ">
                     <h1 class="text-xl px-10 py-2 font-semibold  ml-4 rounded-md w-72       ">Freelance:</h1>
                     <h1 class="text-xl px-10 py-2 font-semibold   rounded-md w-56     " >Available</h1>
                  </div>   
@@ -104,30 +108,30 @@
                 </div>
 
             </div>
-            <div class="image w-2/4 mt-[40px]    h-80    bg-red-500 rounded-xl overflow-hidden mr-4  ">
+            <div id="aboutimg" class="image w-2/4 mt-[40px]    h-80    bg-red-500 rounded-xl overflow-hidden mr-4  ">
                 <img class="w-full h-full object-cover " src="https://i.pinimg.com/564x/49/4b/93/494b935b89430aeb20c0196c81bccdf0.jpg" alt="">
 
             </div>
 
         </div>
 
-        <div class="bar flex justifu-between gap-10 py-10   ">
-            <div class="w-60 h-36   ml-10 rounded-md border-dashed border-2 border-[#EA2027] text-center 	   ">
+        <div id="barcontainer" class="bar flex justify-between gap-10 py-10   ">
+            <div id="barc111"  class="   w-60 h-36   ml-10 rounded-md border-dashed border-2 border-[#EA2027] text-center 	   ">
                 <h1 class="text-[60px] font-bold   ">100%</h1>
                 <h1 class="text-xl font-semibold ">Html</h1>
 
             </div>
-            <div class="w-60 h-36   ml-10 rounded-md border-dashed border-2 border-[#EA2027]  text-center 	   ">
+            <div  id="barc112"   class="   w-60 h-36   ml-10 rounded-md border-dashed border-2 border-[#EA2027]  text-center 	   ">
                 <h1 class="text-[60px] font-bold   ">100%</h1>
                 <h1 class="text-xl font-semibold ">Css</h1>
 
             </div>
-            <div class="w-60 h-36   ml-10 rounded-md border-dashed border-2 border-[#EA2027] text-center 	   ">
+            <div id="barc113"  class="   w-60 h-36   ml-10 rounded-md border-dashed border-2 border-[#EA2027] text-center 	   ">
                 <h1 class="text-[60px] font-bold   ">75%</h1>
                 <h1 class="text-xl font-semibold ">Javascript</h1>
 
             </div>
-            <div class="w-60 h-36   ml-10 rounded-md border-dashed border-2 border-[#EA2027] text-center 	   ">
+            <div id="barc114"  class="   w-60 h-36   ml-10 rounded-md border-dashed border-2 border-[#EA2027] text-center 	   ">
                 <h1 class="text-[60px] font-bold   ">60%</h1>
                 <h1 class="text-xl font-semibold ">Backend</h1>
 
@@ -136,5 +140,27 @@
         </div>
 
     </div>
+    <footer class="bg-zinc-800 ">
+        <div id="footer" class="f2 w-full h-16     px-8  py-4  text-white    ">
+            <div class="flex justify-between  ">
+                <div class="w-44 h-8    rounded-md overflow-hidden  inline-block mb-2      ">
+                    <img class="w-full h-full object-cover" src="./cover-removebg-preview (1).png" alt="">
+        
+                   </div>
+                <h1 class="text-xs opacity-60 text-center ml-10 py-2  ">@2024 Touqeerdev.All <span class="text-[#FD2231]">Copyrights</span> reserved</h1>
+                <div id="footeric" class="iconssss flex gap-5 ">
+                    <a href="https://www.facebook.com/profile.php?id=100092415151776&mibextid=ZbWKwL"><i class="ri-facebook-fill"></i></a>
+                    <a href="https://www.instagram.com/tokeer_jutt?igsh=bmJkODc0dmp1dHFs"><i class="ri-instagram-fill"></i></a>
+                    <a href="https://x.com/ChaudryTokeer?t=dHPkjrVGecRagLnSczvBIg&s=09"><i class="ri-twitter-x-line"></i></a>
+                    <a href=""><i class="ri-linkedin-box-fill"></i></a>
+
+                </div>
+            </div>
+        </div>
+       
+    </footer>
+    <!-- <script>
+        alert("The Sections Which Are overlined are not available yet!but will be available soon!");
+    </script> -->
 </body>
 </html>

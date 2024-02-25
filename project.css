@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url(./Noto_Serif/NotoSerif-Italic-VariableFont_wdth\,wght.ttf);
+}
+.hh11{
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+   
+}
+.hh22:hover img{
+    transform: scale(1.1);
+    transition: 0.5s;
+    border-radius: 20px;
+}
