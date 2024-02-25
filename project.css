@@ -14,3 +14,28 @@
     transition: 0.5s;
     border-radius: 20px;
 }
+.hh22{
+    height: calc(100% - 96px );
+}
+body{
+    overflow-y: hidden;
+}
+@media (max-width: 768px) {
+    body{
+        overflow-y: visible;
+        background-color: black;
+    }
+    #nav a{
+        display: none;
+    }
+    #imgc{
+        margin-left: 20px;
+    }
+    
+    #footercontainer{
+        
+        margin-top: 100px;
+        background-color: black;
+
+    }
+}

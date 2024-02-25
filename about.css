@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+    #navcontainer1{
+        width: 375vw;
+        height: 6vh;
+        padding: 0;
+        margin-right: -100px;
+        background-color: aqua;
+    }
+    #mainc{
+        width: 100%;
+        height: 100%;
+    }
+    
+}

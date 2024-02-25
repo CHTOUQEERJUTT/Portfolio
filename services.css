@@ -1,0 +1,27 @@
+@media (max-width: 768px) {
+    #navcontainerokok{
+        width: 100vw;
+       
+    }
+    #navw{
+        margin-left: 100px;
+    }
+    #navcontainerlinks a{
+        display: none;
+    }
+    #footerc{
+        margin-top: 20px;
+    }
+    #footerc2{
+        padding: 0;
+        gap: 0;
+
+
+    }
+    #footerc3{
+        margin: 0;
+        padding: 0;
+        gap: 0;
+    }
+    
+}

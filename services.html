@@ -6,16 +6,27 @@
     <title>Services</title>
     <!-- Include Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="services.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
     <!-- Include Font Awesome for icons -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 <body class="bg-zinc-800 font-sans">
     <!-- Navigation -->
-    <nav class="bg-zinc-700  shadow-lg">
+    <div id="navcontainerokok" class="bg-zinc-700  shadow-lg">
         <div class="container mx-auto px-6 py-3">
-            <div class="flex items-center justify-between">
-                <div class="text-xl font-semibold text-white ">MyWebsite</div>
-                <div class="flex items-center">
+            <div  class="flex items-center justify-between">
+                <div class="text-white text-2xl px-4  ">
+                    <i class="ri-menu-2-fill"></i>
+                </div>
+                <div class="w-44 h-8    rounded-md overflow-hidden  inline-block mb-2      ">
+                    <img class="w-full h-full object-cover" src="./cover-removebg-preview (1).png" alt="">
+        
+                   </div>
+                <div id="navcontainerlinks" class="flex items-center">
                     <a href="./index.html" class="text-white  hover:text-gray-800 mx-3">Home</a>
                     <a href="#" class="text-white  hover:text-gray-800 mx-3">Services</a>
                     
@@ -25,7 +36,7 @@
                 </div>
             </div>
         </div>
-    </nav>
+    </div>
 
     <!-- Services Section -->
     <section class="container mx-auto my-10 p-10 bg-zinc-700  rounded-lg shadow-lg ">
@@ -56,14 +67,14 @@
         </div>
     </section>
 
-    <footer class="mt-60 ">
-                    <div class="f2 w-full h-16     px-8  py-4  text-white    ">
+    <footer id="footerc" class="mt-56  ">
+                    <div id="footerc2" class="f2 w-full h-16     px-8  pt-6 pb-4   text-white    ">
                         <div class="flex justify-between  ">
                             <div class="w-44 h-8    rounded-md overflow-hidden  inline-block mb-2      ">
                                 <img class="w-full h-full object-cover" src="./cover-removebg-preview (1).png" alt="">
                     
                                </div>
-                            <h1 class="text-xs opacity-60 text-center ml-10 py-2  ">@2024 Touqeerdev.All <span class="text-[#FD2231]">Copyrights</span> reserved</h1>
+                            <h1 id="footerc3" class="text-xs opacity-60 text-center ml-10 py-2  ">@2024 Touqeerdev.All <span class="text-[#FD2231]">Copyrights</span> reserved</h1>
                             <div class="iconssss flex gap-5 ">
                                 <i class="ri-facebook-fill"></i>
                                 <i class="ri-instagram-fill"></i>
@@ -74,7 +85,7 @@
                         </div>
                     </div>
                    
-                </footer>>
+                </footer>
 
 </body>
 </html>
