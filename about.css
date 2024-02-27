@@ -1,14 +1,72 @@
 @media (max-width: 768px) {
-    #navcontainer1{
-        width: 375vw;
-        height: 6vh;
-        padding: 0;
-        margin-right: -100px;
-        background-color: aqua;
+    body{
+        
+        background-color: black;
     }
-    #mainc{
+    #top1{
+        
+        margin-bottom: -30px;
+    }
+    
+    #menuIcon{
+        display: inline-block;
+         color: white;
+         padding:10px  ;
+         margin-left:40vw ;
+        
+         
+        
+     }
+     #logoimg{
+         display: inline-block;
+         padding:  0;
+         
+         
+         margin: 0;
+         margin-bottom: -10px;
+         
+        
+     }
+    #navbar{
+        display: none;
+
+    }
+    
+    #navbar a{
+        display: none;
+
+    }
+    #maincontainer{
+        width: 360px;
+        height: 25vh;
+        
+    }
+    #mtcontainer{
+        margin: 0;
+        padding: 0 5vw;
+    }
+    #mtcontainer h2{
+        font-size: small;
+    }
+    #mtcontainer p{
+        font-size: small;
+    }
+    #ico{
+        width: 50vw;
+        height: 15vh;
+        overflow: hidden;
+       
+        
+    }
+    #ico img{
         width: 100%;
         height: 100%;
+        object-fit: cover;
+        
+    }
+    #footer{
+        margin-top: 9vh;
+        padding: 0;
     }
     
 }

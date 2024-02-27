@@ -28,19 +28,25 @@
     <div class="mobile-view">
         <!-- Your mobile-specific content goes here -->
         <div class="main1 bg-black  text-white min-h-screen flex flex-col">
-            <div id="nav" class="nav bg-[#262626] py-2 px-10 flex justify-between items-center">
-                <div id="navm">
-                    <i class="ri-menu-2-fill"></i>
-                </div>
-                <div id="imgc" class="w-44 h-12 rounded-md overflow-hidden">
+            <div id="top1">
+                <div id="logoimg" class="w-44 h-8 rounded-md overflow-hidden inline-block mb-2 hidden ">
                     <img class="w-full h-full object-cover" src="./cover-removebg-preview (1).png" alt="">
                 </div>
-                <a class="ml-20 font-semibold" href="./index.html">Home</a>  
-                <a class="ml-4 font-semibold" href="./about.html">About</a>
-                <a class="ml-4 font-semibold" href="./services.html">Services</a>
-                <a class="inline-block rounded-lg py-1 h-8 bg-[#FD0000] mt-2 md:mt-0" href="https://www.fiverr.com/tokeer_webdev?up_rollout=true">Order Now</a>
+                <div id="menuIcon" class="ri-menu-4-fill text-2xl cursor-pointer ml-10 hidden "></div>
             </div>
-            <div class="man w-full pt-6">
+            <div id="mobileNavbar" class="fixed inset-0 bg-zinc-800  z-50 hidden">
+                <div class="flex flex-col h-full justify-center items-center">
+                    <button id="closeButton" class="ri-close-fill text-white text-2xl absolute top-5 right-5 cursor-pointer"></button>
+                    <a class="text-white text-lg py-2 px-4" href="./index.html">Home</a>
+                    <a class="text-white text-lg py-2 px-4" href="./about.html">About</a>
+                    <a class="text-white text-lg py-2 px-4" href="./services.html">Services</a>
+                    <a class="text-white text-lg py-2 px-4" href="./projects.html">Projects</a>
+                    <a class="text-white text-lg py-2 px-4" href="#">Blog</a>
+                    <a class="text-white text-lg py-2 px-4" href="#">Contact</a>
+                    <button class="text-white text-lg py-2 px-4 border border-white rounded-full mt-4">Download Resume</button>
+                </div>
+            </div>
+            <div id="baba" class="man w-full pt-6">
                 <div>
                     <h1 class="text-center text-[#E4AA47]">MY PROJECTS</h1>
                     <h1 class="text-center text-4xl md:text-5xl font-bold mt-2">My MasterPiece Collection</h1>
@@ -90,20 +96,7 @@
                 </div>
             </div>
             <footer id="footercon" class="bg-[#262626]">
-                <div class="f2 py-4 px-8 text-white">
-                    <div class="flex justify-between items-center">
-                        <div class="w-44 h-8 rounded-md overflow-hidden">
-                            <img class="w-full h-full object-cover" src="./cover-removebg-preview (1).png" alt="">
-                        </div>
-                        <h1 class="text-xs opacity-60">© 2024 Touqeerdev. All Rights Reserved.</h1>
-                        <div class="iconssss flex gap-5">
-                            <i class="ri-facebook-fill"></i>
-                            <i class="ri-instagram-fill"></i>
-                            <i class="ri-twitter-x-line"></i>
-                            <i class="ri-linkedin-box-fill"></i>
-                        </div>
-                    </div>
-                </div>
+                <h1 id="footerc3" class="text-xs opacity-60 text-center ml-10 py-4 ">@2024 Touqeerdev.All <span class="text-[#FD2231]">Copyrights</span> reserved</h1>
             </footer>
         </div>
     </div>
@@ -174,24 +167,28 @@
                     </div>
                 </div>
             </div>
-            <footer id="footercontainer" class="bg-[#262626] mt-[89px]">
-                <div class="f2 py-4 px-8 text-white">
-                    <div class="flex justify-between items-center">
-                        <div class="w-44 h-8 rounded-md overflow-hidden">
-                            <img class="w-full h-full object-cover" src="./cover-removebg-preview (1).png" alt="">
-                        </div>
-                        <h1 class="text-xs opacity-60">© 2024 Touqeerdev. All Rights Reserved.</h1>
-                        <div class="iconssss flex gap-5">
-                            <i class="ri-facebook-fill"></i>
-                            <i class="ri-instagram-fill"></i>
-                            <i class="ri-twitter-x-line"></i>
-                            <i class="ri-linkedin-box-fill"></i>
-                        </div>
-                    </div>
-                </div>
+            <footer id="footercontainer" class="bg-[#262626] mt-[11vh] h-16 ">
+                
+                <h1 id="footerc3" class="text-xs opacity-60 text-center ml-10 py-4 ">@2024 Touqeerdev.All <span class="text-[#FD2231]">Copyrights</span> reserved</h1>
+                       
             </footer>
         </div>
     </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const menuIcon = document.getElementById('menuIcon');
+            const mobileNavbar = document.getElementById('mobileNavbar');
+            const closeButton = document.getElementById('closeButton');
+
+            menuIcon.addEventListener('click', function () {
+                mobileNavbar.classList.toggle('hidden');
+            });
+
+            closeButton.addEventListener('click', function () {
+                mobileNavbar.classList.add('hidden');
+            });
+        });
+    </script>
 </body>
 </html>
 

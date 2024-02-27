@@ -1,4 +1,32 @@
 @media (max-width: 768px) {
+    #top1{
+        
+        margin-bottom: -30px;
+    }
+    #mobileNavbar a:hover {
+        outline: 2px solid white;
+        border-radius: 5px;
+    }
+ 
+    #menuIcon{
+       display: inline-block;
+        color: white;
+        padding:10px  ;
+        margin-left:40vw ;
+       
+        
+       
+    }
+    #logoimg{
+        display: inline-block;
+        padding:  0;
+        
+        
+        margin: 0;
+        margin-bottom: -10px;
+        
+       
+    }
     #navcontainerokok{
         width: 100vw;
        
@@ -10,18 +38,8 @@
         display: none;
     }
     #footerc{
-        margin-top: 20px;
+        margin-top: 1vh ;
     }
-    #footerc2{
-        padding: 0;
-        gap: 0;
 
-
-    }
-    #footerc3{
-        margin: 0;
-        padding: 0;
-        gap: 0;
-    }
     
 }

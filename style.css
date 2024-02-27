@@ -1,147 +1,213 @@
-#navmenu{
-    display: none;
+#mobileNavbar a:hover {
+    outline: 2px solid white;
+    border-radius: 5px;
 }
-@media (max-width:600px) {
-    #maincontainer1{
+@media (max-width: 768px){
+    body{
         width: 100vw;
+        margin: 0;
+        padding: 0;
+        
     }
-   #nav a {
-    display: none;
-   }
-   #nav button{
-    display: none;
-   }
-   #logoimg{
-    margin-left: 50px;
-   }
-   #navmenu{
-    display: block;
-    margin-top: -90px;
-    padding-top: -50px;
-    padding-left: -20px;
-   }
-   #textc1{
-    margin-top: -50px;
-    padding: -50px 0px ;
-   }
-   #c11{
-    padding: 10px 70px ;
-   }
-   
-   #c11 h1{
-    font-size: 5vw;
-   }
-   #mail{
-    margin-top: -30px;
-    padding: 50px ;
-    padding-right: 100px;
-   }
-   #mail h1{
-    font-size: 5vw;
-    padding-left: 21px;
-   }
-   #mail h2{
-    padding-left: 20px;
-   }
-   #Expertise{
-    margin-top: -30px;
-    padding: 20px ;
-    padding-right: 60px;
-    padding-left: 70px;
-   }
-   #about{
-    margin-top: -30px;
-    padding: 0px ;
-    padding-right: 0px;
-    padding-left: 0px;
-   }
-   #aboutin{
-    padding-left: 0px;
-   }
-   #aboutin1{
-    padding-left: 0px;
-    width: 50%;
-   }
-   #aboutimg{
-    display: none;
-   }
-   #aboutinnok h1{
-    font-size: x-small;
-   }
-   #aboutcontainer{
-    width: 100vw;
-    padding: 0;
-    margin: 0;
-   }
-   #barcontainer{
-    width: 100vw;
-    padding: 0;
-    margin: 0;
-    gap: 0;
-   }
-   #barc111{
-    height: 50px;
-    width: 55vw;
-   }
-   #barc111 h1{
-    font-size: x-small;
-   }
+    #mobileNavbar a:hover {
+        outline: 2px solid white;
+        border-radius: 5px;
+    }
+    #maincontainer1{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+       
+    }
+    #nav{
+        width: 100%;
+        overflow-x: hidden;
+        padding: 12px  20px;
+        margin: 0;
+    }
+    #navmenu{
+        margin-left: 20px;
+    }
+    #logoimg{
+        padding: 0;
+        margin-top: -12px ;
+        margin-left:-20px  ;
+    }
+    #nav a{
+        display: none;
 
-   #barc112{
-    height: 50px;
-    width: 55vw;
-   }
-   #barc112 h1{
-    font-size: x-small;
-   }
+    }
+    #nav button{
+        display: none;
 
-   #barc113{
-    height: 50px;
-    width: 55vw;
-   }
+
+    }
+    #textc1{
+        margin: -50px 0px ;
+        padding: 0;
+        width: 100%;
+
+    }
+    #c11 {
+        margin: 0;
+        padding: 50px 50px ;
+        
+
+
+    }
+    #c11 h1{
+        font-size: large  ;
+
+
+    }
+    #mail{
+        margin: 0;
+        padding: 20px 50px ;
+        
+    }
+    #mail h1{
+        font-size: large;
+    }
+    #Expertise{
+        margin: 0;
+        padding: 20px 50px ;
+    }
+    #Expertise h1{
+        font-size: large;
+    }
+    #htic{
+        margin: 0;
+        padding: 20px 50px ;
+    }
+    #htic i{
+       font-size: xx-large;
+    }
+    #sci{
+        margin: 0;
+        padding: 50px 50px ;
+    }
+    #sci i{
+        font-size: xx-large;
+    }
+    #smain{
+        margin: 0;
+        padding: 0;
+        
+
+    }
+    #about{
+        margin: 10px 0px ;
+        padding: 0;
+    }
+    #aboutcontainer{
+        margin: -10vh 0px ;
+        padding: 0;
+    }
+    #aboutcontainer h1{
+        font-size: small;
+      
+    }
+    #aboutinnok{
+        margin: 0 5px ;
+        padding: 0 5px ;
+        width: 145px;
+    }
+    #aboutinnok h1{
+        margin: 0 0px ;
+        padding: 0 ;
+        width: 30px;
+    }
+    #aboutinnok h2{
+        font-size: x-small ;
+        margin: 0 50px ;
+        padding: 0 ;
+        width: 30px;
+    }
+
+    #aboutinnoke{
+        margin: 0 5px ;
+        padding: 0;
+        width: 145px;
+    }
+    #aboutinnoke h1{
+        font-size: xx-small;
+        margin: 0;
+        padding: 0;
+    }
+    #aboutinnoke h2{
+        font-size: xx-small;
+        margin: 0 5px ;
+        padding: 0;
+    }
+    #aboutimg{
+        margin-top: -1vh;
+        padding: 0;
+        width: 50vw;
+        height: 30vh;
+    }
+    #barcontainer{
+        margin: 0;
+        padding: 0;
+        gap: 0;
+        flex-wrap: nowrap;
+        width: 100%;
+        justify-content: center;
+    
+    }
+    #barc111{
+        margin: 0px  0px ;
+        margin-left: 0px;
+        padding: 0;
+        width: 15vw;
+        height: 10vh;
+        gap: 0px;
+    }
+    #barc111 h1{
+       font-size: xx-small;
+    }
+    #barc112{
+        margin: 0px  0px ;
+        margin-left: 0px;
+        padding: 0;
+        width: 15vw;
+        height: 10vh;
+        gap: 0px;
+    }
+    #barc112 h1{
+       font-size: xx-small;
+    }
+    #barc113{
+        margin: 0px  0px ;
+        margin-left: 0px;
+        padding: 0;
+        width: 15vw;
+        height: 10vh;
+        gap: 0px;
+    }
     #barc113 h1{
-     font-size: x-small;
+       font-size: xx-small;
     }
-   #barc114{
-    height: 50px;
-    width: 55vw;
-   }
+    #barc114{
+        margin: 0px  0px ;
+        margin-left: 0px;
+        padding: 0;
+        width: 15vw;
+        height: 10vh;
+        gap: 0px;
+    }
     #barc114 h1{
-     font-size: x-small;
+       font-size: xx-small;
     }
-   .barcontainerinn{
-    width: 150px;
-    min-height: 10px;
-    margin: 0;
-    padding: 0;
-    display: inline-block;
+    #footer{
+        margin: 0;
+        padding: 2px 0;
+        width: 100%;
+        height: 7vh;
+        color: white;
+        
+    }
     
-   }
-   .barcontainerinn h1{
-    font-size: 10px;
-   }
-   #smain{
-    height: 100vh;
-   }
-
-   #footer{
-    padding: 8px 0px;
-    margin: 0;
-    margin-top: -60px;
-   }
-   #footer h1{
-    margin-left: -20px;
-    font-size: small;
-    
-   }
-   #footeric{
-    gap: 0;
-    padding-right: 5px;
-    margin-right: 10px;
-   }
-   
 
 
 
-    
 }
